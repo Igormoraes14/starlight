@@ -14,12 +14,12 @@
     <header>
         <!--Area superior / espaço redes sociais e user-->
         <div id="superior">
-            <img src="/app/public/img/instagram.png" alt="instagram" id="icon-instagram">
-            <img src="/app/public/img/twitter.png" alt="twitter" id="icon-twitter">
-            <img src="/app/public/img/pinterest.png" alt="pinterest" id="icon-pinterest">
-            <img src="/app/public/img/user.png" alt="user-icon" id="icon-user">
+          <a href=""><img src="/app/public/img/instagram.png" alt="instagram" id="icon-instagram"></a>
+          <a href=""><img src="/app/public/img/twitter.png" alt="twitter" id="icon-twitter"></a>
+          <a href=""><img src="/app/public/img/pinterest.png" alt="pinterest" id="icon-pinterest"></a>
+          <a href=""><img src="/app/public/img/user.png" alt="user-icon" id="icon-user"></a>
         </div>
-        <img src="/app/public/img/logo.png" alt="logo" id="logo">
+        <a href="/app/views/index.html"><img src="/app/public/img/logo.png" alt="logo" id="logo"></a>
         <!--Area menu / navegação do site-->
         <nav>
             <button id="button-nav">Como ajudar</button>
@@ -94,30 +94,33 @@
           <section id="artigos">
             <div id="barra"><hr></div>
 
-            <div id="noticias">
+            <a href=""><div id="noticias">
                 <img src="/app/public/img/noticia.webp" alt="" id="img-noticias">
                 <h2>Noticías</h2>
                 
             </div>
+            </a>
 
-            <div id="restaurantes">
+            <a href=""><div id="restaurantes">
                 <img src="/app/public/img/restaurante.jpg" alt="" id="img-noticias">
                 <h2>Restaurantes</h2>
                 
             </div>
+            </a>
 
-            <div id="eventos">
+            <a href=""><div id="eventos">
                 <img src="/app/public/img/evento.jpg" alt="" id="img-noticias">
                 <h2>Eventos</h2>
                 
             </div>
+            </a>
 
-            <div id="parcerias">
+            <a href=""><div id="parcerias">
                 <img src="/app/public/img/parcerias.webp" alt="" id="img-noticias">
                 <h2>Parcerias</h2>
                 
             </div>
-
+            </a>
         
           </section>
 
@@ -129,19 +132,26 @@
             </div>
             <h3 id="mais-comentarios">Mais comentarios ></h3>
             <form action="/pagina-processa-dados-do-form" method="post" id="area-coment">
-                <div>
-                    <label for="msg" id="mensagem">Mensagem:</label>
-                    <textarea id="msg" name="usuario_msg"></textarea>
-                </div>
-            
-                <div class="button">
-                    <button type="submit">Enviar sua mensagem</button>
-                </div>
+                <label for="msg" id="mensagem">Mensagem:</label>
+                <textarea id="msg" name="usuario_msg"></textarea>
+                <button type="submit">Enviar sua mensagem</button>
             </form>
           </section>
     </main>
     <footer>
-        
+      <div id="footer-sociais">
+        <a href=""><img src="/app/public/img/instagram.png" alt="instagram" id="icon-instagram"></a>
+        <a href=""><img src="/app/public/img/twitter.png" alt="twitter" id="icon-twitter"></a>
+        <a href=""><img src="/app/public/img/pinterest.png" alt="pinterest" id="icon-pinterest"></a>
+      </div>
+      <div id="links">
+        <a href=""><h2>Sobre Nós</h2></a>
+        <a href=""><h2>Fale conosco</h2></a>
+        <a href="/app/views/index.html"><h2>home</h2></a>
+      </div>
+      
+      <img src="/app/public/img/logo.png" alt=""  id="logo">
+      
     </footer>
 
     

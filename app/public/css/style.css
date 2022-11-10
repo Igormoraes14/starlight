@@ -366,16 +366,30 @@ body main section hr {
     margin: 10px;
 }
 
-#mensagem {
-    margin: 10px;
-}
-
-#msg {
-    height: 50px;
-    width: 250px;
-    margin-top: 30px;
-}
-
 
 /* configurações do footer */
 
+
+#footer-sociais {
+  background-image: url(/app/public/img/fundo.png);
+  padding-left: 120px;
+  
+}
+
+footer {
+  background-color: #EC0868;
+  height: 300px;
+}
+
+body footer h2 {
+  font-size: large;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  margin: 20px;
+}
+
+/*configuração da linha inferior azul dos links*/
+a {
+  text-decoration: none;
+ }
