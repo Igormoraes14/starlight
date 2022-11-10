@@ -371,6 +371,7 @@ body main section hr {
 
 
 #footer-sociais {
+  margin-top: 100px;
   background-image: url(/app/public/img/fundo.png);
   padding-left: 120px;
   
@@ -378,7 +379,7 @@ body main section hr {
 
 footer {
   background-color: #EC0868;
-  height: 300px;
+  height: 400px;
 }
 
 body footer h2 {
@@ -386,7 +387,8 @@ body footer h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   color: white;
-  margin: 20px;
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
 /*configuração da linha inferior azul dos links*/
@@ -477,4 +479,21 @@ a {
   color: #EC0868;
   font-size: x-large;
   margin-bottom: 10px;
+}
+
+.add-comentario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#txt-comentario {
+  color: orange;
+  font-weight: bold;
+}
+
+#adicionar-comentario {
+  width: 300px;
+  height: 70px;
 }
