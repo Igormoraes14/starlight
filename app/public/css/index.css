@@ -7,10 +7,16 @@
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: large;
-    
+    margin-left: 5%;
+
+
+
 }
 nav {
     background-color: #EC0868;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 /* area de configuração das sessões*/
@@ -23,6 +29,19 @@ nav {
 }
 
 /* configurações dos artigos*/
+
+#area-anuncio {
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 20px;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    font-weight: 1000;
+    justify-content: center;
+    align-items: center;
+}
 
 #noticias {
     color: rgb(204, 153, 13);
@@ -151,6 +170,11 @@ body main section hr {
     justify-content: center;
     align-items: center;
   }
+
+.add-comentario form h3 {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
   
   #txt-comentario {
     color: orange;

@@ -16,25 +16,24 @@ header {
     margin-bottom: 20px;
 }
 
-#icon-instagram {
+#iconh {
     height: 32px;
     margin: 10px;
+    
 }
 
-#icon-twitter {
+
+#iconu {
     height: 32px;
     margin: 10px;
+    margin-left: 55%;
 }
 
-#icon-pinterest {
+
+#iconf {
     height: 32px;
     margin: 10px;
-}
-
-#icon-user {
-    height: 32px;
-    margin: 10PX;
-    float: right;
+    margin-left: 18%;
 }
 
 /* configurações do footer */
@@ -43,7 +42,7 @@ header {
 #footer-sociais {
     margin-top: 100px;
     background-image: url(/app/public/img/fundo.png);
-    padding-left: 120px;
+    
     
   }
   
