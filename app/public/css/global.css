@@ -7,6 +7,27 @@
 header {
     background-color: #440334;
 }
+
+#button-nav {
+    height: 45px;
+    width: 124px;
+    border: 0px;
+    background-color: #EC0868;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    margin-left: 5%;
+
+
+
+}
+/* configurações do nav*/
+nav {
+    background-color: #EC0868;
+    justify-content: center;
+    align-items: center;
+    
+}
 /*area icones de rede social*/
 #logo {
     display: block;

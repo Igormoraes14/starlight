@@ -1,23 +1,6 @@
-/* configurações do nav*/
-#button-nav {
-    height: 45px;
-    width: 124px;
-    border: 0px;
-    background-color: #EC0868;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: large;
-    margin-left: 5%;
 
 
 
-}
-nav {
-    background-color: #EC0868;
-    justify-content: center;
-    align-items: center;
-    
-}
 
 /* area de configuração das sessões*/
 
@@ -185,3 +168,5 @@ body main section hr {
     width: 300px;
     height: 70px;
   }
+
+  
