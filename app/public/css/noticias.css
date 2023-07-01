@@ -43,7 +43,15 @@
     color: #ffff;
     font-family: 'Roboto', sans-serif;
     height: 50px;
-    width: 100px;
+    width: 92%;
+    margin-left: 15px;
     font-size: large;
+    margin-bottom: 30px;
     
+}
+
+#espaco-img {
+    height: 110px;
+    width: 500px;
+    overflow: hidden;
 }

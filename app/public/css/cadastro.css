@@ -1,12 +1,19 @@
 body {
-    background-color: #440334;
+    background-color: #ffff;
 }
+
+main {
+  background-image: url(/app/public/img/fundo.png);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
 .area-login {
     width: 322px;
     height: 560px;
     background-color: #ffffff;
     margin-top: 50px;
-    margin-left: 32.5px;
     text-align: center;
     padding-top: 5px;
     margin-bottom: 10px;
@@ -14,6 +21,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     color: rgb(121, 121, 121);
+    margin: 0 auto;
 
   }
 
@@ -24,7 +32,13 @@ body {
     text-align: left;
     margin-top: 20px;
     padding-left: 10px;
+    border: none;
+    background-color: #EC0868;
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
   }
+
+
 
   #entrar {
     background-color: #EC7D10;
