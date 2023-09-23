@@ -93,6 +93,11 @@ main {
   #senha-termos{
     margin-left: 5px;
   }
+
+  #esqueci-senha {
+    color: #EC0868;
+    margin-left: 15px;
+  }
   
   #txt-login {
     color: #EC0868;
